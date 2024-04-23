@@ -6,9 +6,8 @@
 }
 
 body {
-  position: absolute;
   height: 100vh;
-  background-image: url(https://www.seiu1000.org/sites/main/files/imagecache/thumbnail/main-images/camera_lense_0.jpeg);
+  background-image: url(../images/camera_lense_0.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: gray;
@@ -34,9 +33,6 @@ a {
 }
 .header {
   display: flex;
-  position: fixed;
-  right: 0;
-  left: 0;
   min-width: 350px;
   min-height: 100px;
   padding: 0 2em;
