@@ -2,3 +2,44 @@
 *{
   box-sizing: border-box;
 }
+:root{
+  font-family: sans-serif;
+}
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 600px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+header >*{
+  flex-grow: 0.5;
+}
+.logoContainer {
+  margin-left: auto;
+}
+.logo {
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 100px;
+}
+.items {
+  margin-left: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-transform: uppercase;
+
+}
+a{
+    padding: 10px 20px;
+
+}
